@@ -1,42 +1,39 @@
 body{
+    padding: 40px;
     color: brown;
     background-color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 header img{
-    width: 150px;
-    height: 150x;
-    border-radius: 35%;
-    border: 5px solid pink;
-}
-.center{
-    text-align: center;
+    padding: 5px;
+    width: 160px;
+    border-radius: 38%;
+    border: 12px solid pink;
 }
 footer img{
-    width: 40px;
-    padding: 35px;
+    width: 50px;
+    padding: 15px;
 }
 footer{
     display: flex;
     justify-content: center;
 }
 .container{
+    text-align: center;
     width: 100%;
-    height: 100dvh;
+    height: 90px;
+}
+.p{
+    display: flex;
+    justify-content: center;
 }
 p{
-    text-align: center;
     background-color: pink;
-    border-radius:4%;
-    height: 180px;
-    width: 580px;
-}
-.classemain{
-    display: flex;
-    justify-content: center;
+    border-style: groove;
+    border-radius: 8%;
+    padding: 1%;
+    width: 20%;
 }
 h2{
-    display: flex;
-    justify-content: center;
-    height:0px ;
+    font-family: monospace;
 }
